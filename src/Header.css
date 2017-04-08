@@ -1,0 +1,44 @@
+.header{
+	height:60px;
+	border-bottom: 1px solid #eee;
+	position: relative;
+}
+
+.title{
+	text-align: left;
+}
+
+.setting-icon{
+	float: right;
+	position: relative;
+	bottom: 34px;
+	color: #9c9c9c;
+	cursor: pointer;
+}
+
+.setting-menu{
+	width: 100px;
+	position: absolute;
+	right: 0;
+	top: 20px;
+}
+
+.setting-menu span {
+    font-size: 9px;
+    display: block;
+    text-align: right;
+    color: #9c9c9c;
+    cursor: pointer;
+}
+
+.setting-menu span:hover {
+    text-decoration: underline;
+}
+
+.hidden{
+	display: none;
+}
+
+.show{
+	display: block;
+}
